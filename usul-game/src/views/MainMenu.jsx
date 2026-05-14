@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { TOPICS } from '../data/usulData';
 
-const MainMenu = ({ onSelect, onOpenTree }) => {
+const MainMenu = ({ onSelect }) => {
   const styles = {
     container: { 
       padding: '5vw 20px', 
@@ -62,23 +62,6 @@ const MainMenu = ({ onSelect, onOpenTree }) => {
 
   return (
     <div style={styles.container}>
-      <button 
-        onClick={onOpenTree}
-        style={{
-          background: '#1e40af',
-          color: 'white',
-          padding: '12px 25px',
-          borderRadius: '12px',
-          border: 'none',
-          cursor: 'pointer',
-          fontWeight: 'bold',
-          marginBottom: '30px',
-          boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
-        }}
-      >
-        🌳 عرض التشجير الكامل (خارطة العلم)
-      </button>
-      
       <header>
         <h1 style={styles.title}>جزيرة أصول الفقه 🏝️</h1>
         <p style={{ fontSize: 'clamp(1rem, 2vw, 1.2rem)', color: '#64748b' }}>
