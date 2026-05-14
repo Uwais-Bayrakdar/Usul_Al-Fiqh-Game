@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { TOPICS } from '../data/usulData';
 
-const MainMenu = ({ onSelect }) => {
+const MainMenu = ({ onSelect, onOpenTree }) => {
   const styles = {
     container: { 
       padding: '5vw 20px', 
