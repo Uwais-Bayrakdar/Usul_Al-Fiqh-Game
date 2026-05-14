@@ -1,3 +1,0 @@
-Usul-Al-Fiqh-Game
-
-made for memorizing usul Al Fiqh in a gamified version...
