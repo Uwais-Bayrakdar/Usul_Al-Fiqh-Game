@@ -51,7 +51,7 @@ const TashjirView = ({ onBack }) => {
 
         {/* Level 2 Detail Example */}
         <div style={{ marginTop: '40px', padding: '20px', background: '#fff', borderRadius: '20px', maxWidth: '800px' }}>
-          <h3 style={{ color: '#1e40af' }}>تفاصيل الأحكام التكليفية</h3>
+          <h3 style={{ color: '#1d42be' }}>تفاصيل الأحكام التكليفية</h3>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center', marginTop: '10px' }}>
             {['إيجاب', 'ندب', 'تحريم', 'كراهة', 'إباحة'].map(t => (
               <span key={t} style={{ padding: '8px 15px', background: '#f1f5f9', borderRadius: '50px', border: '1px solid #cbd5e1' }}>{t}</span>
